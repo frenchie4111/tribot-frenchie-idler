@@ -1,0 +1,3 @@
+[submodule "tribot-lib"]
+	path = tribot-lib
+	url = git@github.com:frenchie4111/tribot-lib.git
