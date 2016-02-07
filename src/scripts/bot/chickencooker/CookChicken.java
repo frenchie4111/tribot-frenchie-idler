@@ -1,4 +1,4 @@
-package bot.chickencooker;
+package scripts.bot.chickencooker;
 
 import scripts.lib.action.*;
 import scripts.lib.action.cooking.Cook;

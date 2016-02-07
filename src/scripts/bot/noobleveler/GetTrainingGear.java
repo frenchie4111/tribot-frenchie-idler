@@ -1,4 +1,4 @@
-package bot.noobleveler;
+package scripts.bot.noobleveler;
 
 import scripts.lib.action.*;
 import scripts.lib.action.npc.TalkToNPC;

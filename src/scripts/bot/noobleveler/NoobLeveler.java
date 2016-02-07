@@ -1,10 +1,9 @@
-package bot.noobleveler;
+package scripts.bot.noobleveler;
 
 import org.tribot.api2007.Skills;
 import scripts.lib.action.*;
 import scripts.lib.action.bank.*;
 import scripts.lib.action.combat.ChangeStance;
-import scripts.lib.action.inventory.DropAll;
 import scripts.lib.condition.*;
 
 /**
@@ -24,7 +23,6 @@ public class NoobLeveler extends LinearGroup {
 
     public NoobLeveler() {
         super( new Action[] {
-                new Login(),
                 new Wait( 200, 1000 ),
                 new CloseBeginnerUI(),
                 new Wait( 200, 1000 ),

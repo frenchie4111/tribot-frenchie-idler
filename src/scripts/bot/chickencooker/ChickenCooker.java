@@ -1,9 +1,8 @@
-package bot.chickencooker;
+package scripts.bot.chickencooker;
 
 import org.tribot.api.types.generic.Condition;
 import scripts.lib.action.Action;
 import scripts.lib.action.If;
-import scripts.lib.action.LinearGroup;
 import scripts.lib.action.While;
 import scripts.lib.action.inventory.DropAll;
 import scripts.lib.condition.And;

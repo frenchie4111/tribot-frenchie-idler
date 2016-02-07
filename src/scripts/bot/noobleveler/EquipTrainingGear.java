@@ -1,4 +1,4 @@
-package bot.noobleveler;
+package scripts.bot.noobleveler;
 
 import scripts.lib.action.Action;
 import scripts.lib.action.LinearGroup;

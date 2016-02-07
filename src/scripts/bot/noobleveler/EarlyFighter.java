@@ -1,4 +1,4 @@
-package bot.noobleveler;
+package scripts.bot.noobleveler;
 
 import org.tribot.api.types.generic.Condition;
 import scripts.lib.action.Action;

@@ -1,7 +1,7 @@
-package bot.noobleveler;
+package scripts.bot.noobleveler;
 
 import scripts.lib.condition.And;
-import scripts.lib.condition.InventoryContainsCondition;
+import scripts.lib.condition.InventoryContains;
 import scripts.lib.condition.IsEquiped;
 import scripts.lib.condition.Or;
 
@@ -12,11 +12,11 @@ public class HaveTrainingGear extends And {
     public HaveTrainingGear() {
         super(
                 new Or(
-                        new InventoryContainsCondition( "Training sword" ),
+                        new InventoryContains( "Training sword" ),
                         new IsEquiped( "Training sword" )
                 ),
                 new Or(
-                        new InventoryContainsCondition( "Training shield" ),
+                        new InventoryContains( "Training shield" ),
                         new IsEquiped( "Training shield" )
                 )
         );
