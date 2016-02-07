@@ -6,7 +6,7 @@ import scripts.lib.action.ui.Continue;
 import scripts.lib.condition.And;
 import scripts.lib.condition.IsInDialogue;
 import scripts.lib.condition.Not;
-import scripts.lib.condition.Retry;
+import scripts.lib.condition.Count;
 
 /**
  * Created by mike on 1/10/2016.
@@ -17,7 +17,7 @@ public class GetTrainingGear extends LinearGroup {
                 new Walk( new int[] {3218, 3237 } ),
                 new Wait( 200, 1000 ),
                 new While(
-                    new And( new Not( new IsInDialogue() ), new Retry( 5 ) ),
+                    new And( new Not( new IsInDialogue() ), new Count( 5 ) ),
                     new Action[]{
                             new TalkToNPC( "Melee combat tutor" )
                     }
